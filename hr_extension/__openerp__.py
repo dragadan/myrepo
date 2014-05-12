@@ -13,3 +13,4 @@
     'installable': True,
     'active': False,
 }
+ 
