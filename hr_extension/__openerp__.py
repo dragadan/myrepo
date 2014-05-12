@@ -1,4 +1,4 @@
-{
+{ 
     "name": "hr_extension",
     "version": "1.0",
     "depends": ["base","hr"],
