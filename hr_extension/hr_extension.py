@@ -12,7 +12,7 @@ class hr_extension(osv.osv):
     _inherit='hr.employee'
     
     _columns = {
-            'zied':fields.char('New', size=64, required=True),
+            'zied':fields.char('New f', size=64, required=True),
                     }
     
 hr_extension()    
