@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?> 
+
+    <openerp> 
+
+        <data>
+        
+        <record model="ir.ui.view" id="hr_extension_view_form">
+	            <field name="name">extension.form</field>
+	            <field name="model">hr.employee</field>
+	            <field name="inherit_id" ref="hr.view_employee_form"/>	           
+	            <field name="arch" type="xml">
+	            
+	            
+	                	<xpath expr="//field[@name='work_email']" position="after">
+	                	<field name="zied"/>
+                        </xpath>
+	            </field>
+	        </record>
+	        
+	  
+	      </data>
+	      
+	</openerp>  
